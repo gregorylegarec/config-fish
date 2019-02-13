@@ -24,9 +24,9 @@ set -x SUDO_EDITOR "rvim -u NONE"
 # Go (if go exists)
 if type -q go
     set -x GOPATH $HOME/Dev/go
-    set -x GOROOT /usr/local/opt/go/libexec
+    set -x GOROOT /usr/local/go
     set -x PATH $GOPATH $PATH
-    set -x PATH $GOPATH/bin $PATH
+    set -x PATH $GOROOT/bin $PATH
 end
 
 # Nodenv (if nodenv exists)
