@@ -112,3 +112,12 @@ set __fish_git_prompt_char_upstream_prefix ' '
 set fish_prompt_pwd_dir_length 0
 
 # fish_prompt defined in ~/.config/fish/functions/fish_prompt.fish
+
+### Cozy
+
+set -x COZY $HOME/Dev/cozy
+set -x PATH $PATH /Users/gregory/Dev/go/work/bin/
+
+### SVGO
+
+set -x PATH $PATH /Users/gregory/.nodenv/versions/8.10.0/bin/
